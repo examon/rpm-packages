@@ -1,6 +1,6 @@
 Name:           fedora-gooey-karma
 Version:        1
-Release:        1
+Release:        2
 Summary:        Fedora Gooey Karma
 
 Group:          Development/Tools
@@ -40,5 +40,8 @@ rm -rf $RPM_BUILD_ROOT
 /usr/share/fedora-gooey-karma
 
 %changelog
+* Thu Mar 07 2013 Tomas Meszaros <exo@tty.sk> - 1-2
+- updated load_installed() so installed packages are loading now much faster
+
 * Mon Mar 04 2013 Tomas Meszaros <exo@tty.sk> - 1-1
 - initial spec for Fedora
