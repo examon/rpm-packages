@@ -1,7 +1,7 @@
 Name:           fedora-gooey-karma
 Version:        1
-Release:        3
-Summary:        Fedora Gooey Karma
+Release:        4
+Summary:        fedora-easy-karma like tool with GUI and some more features
 
 Group:          Development/Tools
 License:        MIT
@@ -20,7 +20,7 @@ Requires:       python-pyside
 
 
 %description
-Fedora Gooey Karma
+fedora-gooey-karma provides similar functionality to the fedora-easy-karma via GUI. It also provides some extra info like: yum info, bodhi info, test cases, bugs.
 
 %prep
 %setup -q -n fedora-gooey-karma
@@ -40,6 +40,9 @@ rm -rf $RPM_BUILD_ROOT
 /usr/share/fedora-gooey-karma
 
 %changelog
+* Sun Apr 21 2013 Tomas Meszaros <exo@tty.sk> - 1-4
+- fixed exception invalid raising on checking karmaCheckBox
+
 * Thu Mar 07 2013 Tomas Meszaros <exo@tty.sk> - 1-3
 - fixed __serch_pkg()
 
