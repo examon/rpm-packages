@@ -3,6 +3,7 @@
 github_dir="/home/exo/Github/rpm-packages"
 rpmbuild_dir="/home/exo/rpmbuild"
 
+rpmdev-setuptree /home/exo
 cp $github_dir/fedora-gooey-karma/fedora-gooey-karma.spec $rpmbuild_dir/SPECS
 
 cd $rpmbuild_dir/SOURCES

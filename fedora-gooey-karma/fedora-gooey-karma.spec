@@ -1,6 +1,6 @@
 Name:           fedora-gooey-karma
 Version:        1
-Release:        4
+Release:        5
 Summary:        fedora-easy-karma like tool with GUI and some more features
 
 Group:          Development/Tools
@@ -40,6 +40,9 @@ rm -rf $RPM_BUILD_ROOT
 /usr/share/fedora-gooey-karma
 
 %changelog
+* Thu Apr 25 2013 Tomas Meszaros <exo@tty.sk> - 1-5
+- added Fedora 19 support
+
 * Sun Apr 21 2013 Tomas Meszaros <exo@tty.sk> - 1-4
 - fixed exception invalid raising on checking karmaCheckBox
 
